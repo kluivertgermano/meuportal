@@ -51,7 +51,7 @@ const About: React.FC = () => {
               flexShrink={0}
             >
               <Image
-                src="/images/kluivert.jpg"
+                src="/images/kluivert.jpeg"
                 alt="Kluivert Germano"
                 objectFit="cover"
                 width="100%"
