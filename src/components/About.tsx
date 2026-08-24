@@ -18,16 +18,16 @@ const About: React.FC = () => {
 
   return (
     <Box py={32} bg="brand.bg">
-      <VStack spacing={20} maxW="1200px" mx="auto" px={4}>
+      <VStack gap={20} maxW="1200px" mx="auto" px={4}>
         <ScrollReveal>
-          <VStack spacing={6} textAlign="center">
+          <VStack gap={6} textAlign="center">
             <Flex align="center" gap={2}>
               <Box w="40px" h="2px" bg="brand.orange" />
               <Text
                 color="brand.orange"
                 fontSize="sm"
                 fontWeight="bold"
-                letterSpacing="3px"
+                lettergap="3px"
                 textTransform="uppercase"
               >
                 Sobre Mim
@@ -78,7 +78,7 @@ const About: React.FC = () => {
           </ScrollReveal>
 
           <ScrollReveal direction="right">
-            <VStack spacing={8} align="start" maxW="600px">
+            <VStack gap={8} align="start" maxW="600px">
               <Text fontSize="lg" color="brand.subtle" lineHeight="2" fontWeight="light">
                 Sou <Text as="span" fontWeight="bold" color="brand.text">Kluivert Germano</Text>, consultor de tecnologia com mais de 10 anos de experiência em desenvolvimento de software, arquitectura de sistemas e segurança da informação.
               </Text>

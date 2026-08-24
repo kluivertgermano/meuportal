@@ -25,14 +25,14 @@ const Footer: React.FC = () => {
         {/* CTA Section - Premium */}
         <Box py={20} borderBottom="1px solid" borderColor="rgba(255,255,255,0.08)">
           <ScrollReveal>
-            <VStack spacing={8} textAlign="center" maxW="700px" mx="auto">
+            <VStack gap={8} textAlign="center" maxW="700px" mx="auto">
               <Flex align="center" gap={2}>
                 <Box w="40px" h="2px" bg="brand.orange" />
                 <Text
                   color="brand.orange"
                   fontSize="sm"
                   fontWeight="bold"
-                  letterSpacing="3px"
+                  lettergap="3px"
                   textTransform="uppercase"
                 >
                   Vamos Conversar
@@ -105,7 +105,7 @@ const Footer: React.FC = () => {
         <Box py={16}>
           <Grid templateColumns={isMobile ? "1fr" : "repeat(4, 1fr)"} gap={12}>
             {/* Brand Section */}
-            <VStack align="start" spacing={4}>
+            <VStack align="start" gap={4}>
               <Box
                 bg="brand.orange"
                 p={3}
@@ -122,11 +122,11 @@ const Footer: React.FC = () => {
             </VStack>
 
             {/* Navigation */}
-            <VStack align="start" spacing={4}>
-              <Heading as="h4" size="sm" color="white" fontFamily="heading" textTransform="uppercase" letterSpacing="2px">
+            <VStack align="start" gap={4}>
+              <Heading as="h4" size="sm" color="white" fontFamily="heading" textTransform="uppercase" lettergap="2px">
                 Navegação
               </Heading>
-              <VStack align="start" spacing={3}>
+              <VStack align="start" gap={3}>
                 <Link href="#" color="gray.400" _hover={{ color: "brand.orange" }} fontSize="sm">
                   Início
                 </Link>
@@ -143,11 +143,11 @@ const Footer: React.FC = () => {
             </VStack>
 
             {/* Contact */}
-            <VStack align="start" spacing={4}>
-              <Heading as="h4" size="sm" color="white" fontFamily="heading" textTransform="uppercase" letterSpacing="2px">
+            <VStack align="start" gap={4}>
+              <Heading as="h4" size="sm" color="white" fontFamily="heading" textTransform="uppercase" lettergap="2px">
                 Contato
               </Heading>
-              <VStack align="start" spacing={3}>
+              <VStack align="start" gap={3}>
                 <Flex align="center" gap={3}>
                   <Box bg="rgba(255,140,66,0.1)" p={2} borderRadius="md">
                     <FaEnvelope color="brand.orange" size={14} />
@@ -172,11 +172,11 @@ const Footer: React.FC = () => {
             </VStack>
 
             {/* Social */}
-            <VStack align="start" spacing={4}>
-              <Heading as="h4" size="sm" color="white" fontFamily="heading" textTransform="uppercase" letterSpacing="2px">
+            <VStack align="start" gap={4}>
+              <Heading as="h4" size="sm" color="white" fontFamily="heading" textTransform="uppercase" lettergap="2px">
                 Redes Sociais
               </Heading>
-              <VStack align="start" spacing={3}>
+              <VStack align="start" gap={3}>
                 <Link
                   href="https://www.linkedin.com/in/kluivertgaspargermano/"
                   target="_blank"

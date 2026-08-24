@@ -46,17 +46,17 @@ const Process: React.FC = () => {
 
   return (
     <Box py={32} bg="brand.bg">
-      <VStack spacing={20} maxW="1200px" mx="auto" px={4}>
+      <VStack gap={20} maxW="1200px" mx="auto" px={4}>
         {/* Header Section */}
         <ScrollReveal>
-          <VStack spacing={6} textAlign="center">
+          <VStack gap={6} textAlign="center">
             <Flex align="center" gap={2}>
               <Box w="40px" h="2px" bg="brand.orange" />
               <Text
                 color="brand.orange"
                 fontSize="sm"
                 fontWeight="bold"
-                letterSpacing="3px"
+                lettergap="3px"
                 textTransform="uppercase"
               >
                 Processo
@@ -112,7 +112,7 @@ const Process: React.FC = () => {
                   {step.number}
                 </Text>
 
-                <VStack spacing={6} align="start">
+                <VStack gap={6} align="start">
                   {/* Ícone com background */}
                   <Box
                     w="60px"
@@ -138,7 +138,7 @@ const Process: React.FC = () => {
                   </Text>
 
                   {/* Detalhes */}
-                  <VStack spacing={2} align="start" width="100%" mt={2}>
+                  <VStack gap={2} align="start" width="100%" mt={2}>
                     {step.details.map((detail, i) => (
                       <Flex key={i} align="center" gap={2} width="100%">
                         <Box w="6px" h="6px" borderRadius="full" bg="brand.orange" />

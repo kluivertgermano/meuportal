@@ -36,16 +36,16 @@ const Services: React.FC = () => {
 
   return (
     <Box py={32} bg="brand.bg">
-      <VStack spacing={20} maxW="1200px" mx="auto" px={4}>
+      <VStack gap={20} maxW="1200px" mx="auto" px={4}>
         <ScrollReveal>
-          <VStack spacing={6} textAlign="center">
+          <VStack gap={6} textAlign="center">
             <Flex align="center" gap={2}>
               <Box w="40px" h="2px" bg="brand.orange" />
               <Text
                 color="brand.orange"
                 fontSize="sm"
                 fontWeight="bold"
-                letterSpacing="3px"
+                lettergap="3px"
                 textTransform="uppercase"
               >
                 Nossos Serviços
@@ -84,7 +84,7 @@ const Services: React.FC = () => {
               opacity="0.05"
             />
             
-            <VStack spacing={10} align="start" position="relative">
+            <VStack gap={10} align="start" position="relative">
               <Flex align="center" gap={6}>
                 <Box
                   bg="brand.orange"
@@ -94,7 +94,7 @@ const Services: React.FC = () => {
                 >
                   <Icon as={FaExchangeAlt} boxSize={8} color="white" />
                 </Box>
-                <VStack align="start" spacing={2}>
+                <VStack align="start" gap={2}>
                   <Heading as="h3" size="xl" color="brand.text" fontFamily="heading">
                     Especialista em Serviços EMIS
                   </Heading>
@@ -119,7 +119,7 @@ const Services: React.FC = () => {
                     }}
                     transition="all 0.3s"
                   >
-                    <VStack spacing={5} align="start">
+                    <VStack gap={5} align="start">
                       <Box bg="brand.orange" p={3} borderRadius="lg">
                         <Icon as={service.icon} boxSize={6} color="white" />
                       </Box>
@@ -166,7 +166,7 @@ const Services: React.FC = () => {
                 border="1px solid"
                 borderColor="brand.border"
               >
-                <VStack spacing={6} align="start">
+                <VStack gap={6} align="start">
                   <Box
                     bg="brand.orange"
                     p={4}

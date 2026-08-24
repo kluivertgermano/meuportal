@@ -36,17 +36,17 @@ const Blog: React.FC = () => {
 
   return (
     <Box py={32} bg="brand.bg">
-      <VStack spacing={20} maxW="1200px" mx="auto" px={4}>
+      <VStack gap={20} maxW="1200px" mx="auto" px={4}>
         {/* Header Section */}
         <ScrollReveal>
-          <VStack spacing={6} textAlign="center">
+          <VStack gap={6} textAlign="center">
             <Flex align="center" gap={2}>
               <Box w="40px" h="2px" bg="brand.orange" />
               <Text
                 color="brand.orange"
                 fontSize="sm"
                 fontWeight="bold"
-                letterSpacing="3px"
+                lettergap="3px"
                 textTransform="uppercase"
               >
                 Blog
@@ -111,7 +111,7 @@ const Blog: React.FC = () => {
                 </Box>
 
                 {/* Conteúdo do artigo */}
-                <VStack spacing={5} align="start" p={8} flex="1">
+                <VStack gap={5} align="start" p={8} flex="1">
                   <Flex align="center" gap={4} fontSize="xs" color="brand.subtle">
                     <Flex align="center" gap={1}>
                       <FaClock size={12} />

@@ -33,17 +33,17 @@ const Testimonials: React.FC = () => {
 
   return (
     <Box py={32} bg="brand.bg">
-      <VStack spacing={20} maxW="1200px" mx="auto" px={4}>
+      <VStack gap={20} maxW="1200px" mx="auto" px={4}>
         {/* Header Section */}
         <ScrollReveal>
-          <VStack spacing={6} textAlign="center">
+          <VStack gap={6} textAlign="center">
             <Flex align="center" gap={2}>
               <Box w="40px" h="2px" bg="brand.orange" />
               <Text
                 color="brand.orange"
                 fontSize="sm"
                 fontWeight="bold"
-                letterSpacing="3px"
+                lettergap="3px"
                 textTransform="uppercase"
               >
                 Depoimentos
@@ -97,7 +97,7 @@ const Testimonials: React.FC = () => {
                   <FaQuoteLeft size={40} />
                 </Box>
 
-                <VStack spacing={6} align="start">
+                <VStack gap={6} align="start">
                   {/* Rating */}
                   <Flex gap={1}>
                     {Array.from({ length: testimonial.rating }).map((_, i) => (

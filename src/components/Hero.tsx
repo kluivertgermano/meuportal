@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
 
       <FloatingParticles />
 
-      <VStack spacing={10} zIndex="2" textAlign="center" px={4} py={20} maxW="900px">
+      <VStack gap={10} zIndex="2" textAlign="center" px={4} py={20} maxW="900px">
         <ScrollReveal>
           <Flex align="center" gap={2}>
             <Box w="40px" h="2px" bg="brand.orange" />
@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
               color="brand.orange"
               fontSize="sm"
               fontWeight="bold"
-              letterSpacing="3px"
+              lettergap="3px"
               textTransform="uppercase"
             >
               Consultoria Tecnológica
@@ -138,7 +138,7 @@ const Hero: React.FC = () => {
               <Text fontSize="4xl" fontWeight="bold" color="brand.orange" fontFamily="heading">
                 <AnimatedCounter end={10} suffix="+" />
               </Text>
-              <Text fontSize="sm" color="brand.subtle" mt={2} textTransform="uppercase" letterSpacing="1px">
+              <Text fontSize="sm" color="brand.subtle" mt={2} textTransform="uppercase" lettergap="1px">
                 Anos de Experiência
               </Text>
             </Box>
@@ -146,7 +146,7 @@ const Hero: React.FC = () => {
               <Text fontSize="4xl" fontWeight="bold" color="brand.orange" fontFamily="heading">
                 <AnimatedCounter end={50} suffix="+" />
               </Text>
-              <Text fontSize="sm" color="brand.subtle" mt={2} textTransform="uppercase" letterSpacing="1px">
+              <Text fontSize="sm" color="brand.subtle" mt={2} textTransform="uppercase" lettergap="1px">
                 Projetos Entregues
               </Text>
             </Box>
@@ -154,7 +154,7 @@ const Hero: React.FC = () => {
               <Text fontSize="4xl" fontWeight="bold" color="brand.orange" fontFamily="heading">
                 <AnimatedCounter end={98} suffix="%" />
               </Text>
-              <Text fontSize="sm" color="brand.subtle" mt={2} textTransform="uppercase" letterSpacing="1px">
+              <Text fontSize="sm" color="brand.subtle" mt={2} textTransform="uppercase" lettergap="1px">
                 Clientes Satisfeitos
               </Text>
             </Box>

@@ -43,17 +43,17 @@ const Clients: React.FC = () => {
 
   return (
     <Box py={32} bg="brand.bg">
-      <VStack spacing={20} maxW="1200px" mx="auto" px={4}>
+      <VStack gap={20} maxW="1200px" mx="auto" px={4}>
         {/* Header Section */}
         <ScrollReveal>
-          <VStack spacing={6} textAlign="center">
+          <VStack gap={6} textAlign="center">
             <Flex align="center" gap={2}>
               <Box w="40px" h="2px" bg="brand.orange" />
               <Text
                 color="brand.orange"
                 fontSize="sm"
                 fontWeight="bold"
-                letterSpacing="3px"
+                lettergap="3px"
                 textTransform="uppercase"
               >
                 Clientes
@@ -94,7 +94,7 @@ const Clients: React.FC = () => {
                 transition="all 0.3s ease"
                 height="100%"
               >
-                <VStack spacing={6} align="start">
+                <VStack gap={6} align="start">
                   {/* Ícone com background decorativo */}
                   <Box
                     w="60px"
@@ -109,7 +109,7 @@ const Clients: React.FC = () => {
                     <Icon as={client.icon} boxSize={6} color="white" />
                   </Box>
 
-                  <VStack spacing={3} align="start">
+                  <VStack gap={3} align="start">
                     <Heading as="h3" size="lg" color="brand.text" fontFamily="heading">
                       {client.title}
                     </Heading>
@@ -119,7 +119,7 @@ const Clients: React.FC = () => {
                   </VStack>
 
                   {/* Features */}
-                  <VStack spacing={2} align="start" width="100%">
+                  <VStack gap={2} align="start" width="100%">
                     {client.features.map((feature, i) => (
                       <Flex key={i} align="center" gap={2} width="100%">
                         <FaCheckCircle color="brand.orange" size={14} />
