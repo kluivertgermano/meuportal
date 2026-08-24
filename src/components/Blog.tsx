@@ -1,4 +1,3 @@
-import React from "react";
 import { Box, Flex, Grid, Heading, Text, VStack, Button, Badge, useBreakpointValue } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import { ScrollReveal } from "./Effects";
@@ -37,7 +36,6 @@ const Blog: React.FC = () => {
   return (
     <Box py={32} bg="brand.bg">
       <VStack gap={20} maxW="1200px" mx="auto" px={4}>
-        {/* Header Section */}
         <ScrollReveal>
           <VStack gap={6} textAlign="center">
             <Flex align="center" gap={2}>
@@ -46,7 +44,7 @@ const Blog: React.FC = () => {
                 color="brand.orange"
                 fontSize="sm"
                 fontWeight="bold"
-                lettergap="3px"
+                letterSpacing="3px"
                 textTransform="uppercase"
               >
                 Blog
@@ -62,7 +60,6 @@ const Blog: React.FC = () => {
           </VStack>
         </ScrollReveal>
 
-        {/* Grid de Artigos */}
         <Grid templateColumns={isMobile ? "1fr" : "repeat(3, 1fr)"} gap={10} width="100%">
           {articles.map((article, index) => (
             <motion.div
@@ -86,7 +83,6 @@ const Blog: React.FC = () => {
                 display="flex"
                 flexDirection="column"
               >
-                {/* Imagem do artigo - SEM overlay escuro */}
                 <Box
                   h="200px"
                   bgImage={article.image}
@@ -110,7 +106,6 @@ const Blog: React.FC = () => {
                   </Badge>
                 </Box>
 
-                {/* Conteúdo do artigo */}
                 <VStack gap={5} align="start" p={8} flex="1">
                   <Flex align="center" gap={4} fontSize="xs" color="brand.subtle">
                     <Flex align="center" gap={1}>
@@ -147,7 +142,6 @@ const Blog: React.FC = () => {
           ))}
         </Grid>
 
-        {/* Botão Ver Todos */}
         <ScrollReveal delay={0.2}>
           <Button
             variant="outline"

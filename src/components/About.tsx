@@ -1,4 +1,3 @@
-import React from "react";
 import { Box, Flex, Heading, Text, VStack, Image, Badge, useBreakpointValue } from "@chakra-ui/react";
 import { ScrollReveal } from "./Effects";
 
@@ -27,7 +26,7 @@ const About: React.FC = () => {
                 color="brand.orange"
                 fontSize="sm"
                 fontWeight="bold"
-                lettergap="3px"
+                letterSpacing="3px"
                 textTransform="uppercase"
               >
                 Sobre Mim
@@ -52,13 +51,12 @@ const About: React.FC = () => {
               flexShrink={0}
             >
               <Image
-                src="/images/kluivert.jpeg"
+                src="/images/kluivert.jpg"
                 alt="Kluivert Germano"
                 objectFit="cover"
                 width="100%"
                 height="100%"
               />
-              {/* Overlay decorativo */}
               <Box
                 position="absolute"
                 bottom="0"

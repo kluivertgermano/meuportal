@@ -1,5 +1,4 @@
-import React from "react";
-import { Steps, Box } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
