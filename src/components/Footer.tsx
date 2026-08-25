@@ -152,8 +152,8 @@ const Footer: React.FC = () => {
                   <Box bg="rgba(255,140,66,0.1)" p={2} borderRadius="md">
                     <FaEnvelope color="brand.orange" size={14} />
                   </Box>
-                  <Link href="mailto:projectos@kluivertgermano.com" color="gray.400" _hover={{ color: "brand.orange" }} fontSize="sm">
-                    projectos@kluivertgermano.com
+                  <Link href="mailto:kluivertgermano@gmail.com" color="gray.400" _hover={{ color: "brand.orange" }} fontSize="sm">
+                    kluivertgermano@gmail.com
                   </Link>
                 </Flex>
                 <Flex align="center" gap={3}>
