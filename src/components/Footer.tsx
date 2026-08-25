@@ -92,7 +92,7 @@ const Footer: React.FC = () => {
                   transition="all 0.3s ease"
                   flex={isMobile ? "1" : "auto"}
                   as="a"
-                  href="mailto:projectos@kluivertgermano.com"
+                  href="mailto:kluivertgermano@gmail.com"
                 >
                   Enviar Email
                 </Button>

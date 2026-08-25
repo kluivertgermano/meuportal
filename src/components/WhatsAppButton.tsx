@@ -3,7 +3,7 @@ import { Steps, Box } from "@chakra-ui/react";
 import { FaWhatsapp } from "react-icons/fa";
 
 const WhatsAppButton: React.FC = () => {
-  const phoneNumber = "244900000000"; // Substitua pelo número real
+  const phoneNumber = "244934489103"; // Substitua pelo número real
   const message = "Olá Kluivert! Vi seu site e quero entender como você pode me ajudar com desenvolvimento de sistema, segurança ou DevOps.";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
